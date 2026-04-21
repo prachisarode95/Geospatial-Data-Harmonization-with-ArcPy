@@ -1,0 +1,185 @@
+2026-04-21 12:42:16,457 - INFO - ===== GIS PIPELINE STARTED =====
+2026-04-21 12:42:16,458 - INFO - Validating input paths...
+2026-04-21 12:42:16,466 - INFO - Validation successful.
+2026-04-21 12:42:16,466 - INFO - Starting data conversion...
+2026-04-21 12:42:18,179 - ERROR - Conversion failed: Failed to execute. Parameters are not valid.
+ERROR 000728: Field LONGITUDE does not exist within table
+ERROR 000728: Field LATITUDE does not exist within table
+Failed to execute (XYTableToPoint).
+
+2026-04-21 12:42:18,179 - CRITICAL - Pipeline failed: Failed to execute. Parameters are not valid.
+ERROR 000728: Field LONGITUDE does not exist within table
+ERROR 000728: Field LATITUDE does not exist within table
+Failed to execute (XYTableToPoint).
+
+2026-04-21 12:52:50,394 - INFO - ===== GIS PIPELINE STARTED =====
+2026-04-21 12:52:50,394 - INFO - Validating input paths...
+2026-04-21 12:52:50,406 - INFO - Validation successful.
+2026-04-21 12:52:50,406 - INFO - Starting data conversion...
+2026-04-21 12:52:50,406 - INFO - Using fields: long (X), lat (Y)
+2026-04-21 12:52:53,530 - ERROR - Conversion failed: ERROR 001558: Error parsing json file 'D:\D drive folders\data_standardization_pipeline\Input_Data\GEOJSON\INTERSECTIONS.json'. Could not determine encoding
+Failed to execute (JSONToFeatures).
+
+2026-04-21 12:52:53,530 - CRITICAL - Pipeline failed: ERROR 001558: Error parsing json file 'D:\D drive folders\data_standardization_pipeline\Input_Data\GEOJSON\INTERSECTIONS.json'. Could not determine encoding
+Failed to execute (JSONToFeatures).
+
+2026-04-21 12:58:43,730 - INFO - ===== GIS PIPELINE STARTED =====
+2026-04-21 12:58:43,730 - INFO - Validating input paths...
+2026-04-21 12:58:43,737 - INFO - Validation successful.
+2026-04-21 12:58:43,737 - INFO - Starting data conversion...
+2026-04-21 12:58:43,737 - INFO - Using fields: long (X), lat (Y)
+2026-04-21 12:58:46,507 - INFO - Fixing GeoJSON encoding...
+2026-04-21 12:58:46,513 - INFO - GeoJSON encoding fixed.
+2026-04-21 12:58:46,616 - ERROR - Conversion failed: ERROR 001558: Error parsing json file 'D:\D drive folders\data_standardization_pipeline\temp_fixed.json'. Could not determine encoding
+Failed to execute (JSONToFeatures).
+
+2026-04-21 12:58:46,616 - CRITICAL - Pipeline failed: ERROR 001558: Error parsing json file 'D:\D drive folders\data_standardization_pipeline\temp_fixed.json'. Could not determine encoding
+Failed to execute (JSONToFeatures).
+
+2026-04-21 13:04:27,852 - INFO - ===== GIS PIPELINE STARTED =====
+2026-04-21 13:04:27,852 - INFO - Validating input paths...
+2026-04-21 13:04:27,860 - INFO - Validation successful.
+2026-04-21 13:04:27,860 - INFO - Starting data conversion...
+2026-04-21 13:04:27,860 - INFO - Using fields: long (X), lat (Y)
+2026-04-21 13:04:30,374 - ERROR - Conversion failed: module 'arcpy.conversion' has no attribute 'GeoJSONToFeatures'
+2026-04-21 13:04:30,374 - CRITICAL - Pipeline failed: module 'arcpy.conversion' has no attribute 'GeoJSONToFeatures'
+2026-04-21 13:08:39,300 - INFO - ===== GIS PIPELINE STARTED =====
+2026-04-21 13:08:39,300 - INFO - Validating input paths...
+2026-04-21 13:08:39,313 - INFO - Validation successful.
+2026-04-21 13:08:39,313 - INFO - Starting data conversion...
+2026-04-21 13:08:39,313 - INFO - Using fields: long (X), lat (Y)
+2026-04-21 13:08:42,191 - INFO - Converting GeoJSON to Esri JSON format...
+2026-04-21 13:08:42,194 - ERROR - GeoJSON conversion failed: 'utf-8' codec can't decode byte 0xaf in position 26: invalid start byte
+2026-04-21 13:08:42,194 - ERROR - Conversion failed: 'utf-8' codec can't decode byte 0xaf in position 26: invalid start byte
+2026-04-21 13:08:42,195 - CRITICAL - Pipeline failed: 'utf-8' codec can't decode byte 0xaf in position 26: invalid start byte
+2026-04-21 13:22:11,343 - INFO - ===== GIS PIPELINE STARTED =====
+2026-04-21 13:22:11,344 - INFO - Validating input paths...
+2026-04-21 13:22:11,354 - INFO - Validation successful.
+2026-04-21 13:22:11,355 - INFO - Starting data conversion...
+2026-04-21 13:22:14,009 - INFO - CSV converted to points.
+2026-04-21 13:22:14,009 - INFO - Converting GeoJSON to Esri JSON format...
+2026-04-21 13:22:14,069 - ERROR - GeoJSON conversion failed: Failed to read GeoJSON
+2026-04-21 13:22:14,070 - ERROR - Conversion failed: Failed to read GeoJSON
+2026-04-21 13:22:14,070 - CRITICAL - Pipeline failed: Failed to read GeoJSON
+2026-04-21 13:23:42,328 - INFO - ===== GIS PIPELINE STARTED =====
+2026-04-21 13:23:42,328 - INFO - Validating input paths...
+2026-04-21 13:23:42,336 - INFO - Validation successful.
+2026-04-21 13:23:42,336 - INFO - Starting data conversion...
+2026-04-21 13:23:44,824 - INFO - CSV converted to points.
+2026-04-21 13:23:44,824 - ERROR - Conversion failed: name 'convert_geojson_to_esrijson' is not defined
+2026-04-21 13:23:44,824 - CRITICAL - Pipeline failed: name 'convert_geojson_to_esrijson' is not defined
+2026-04-21 13:24:51,462 - INFO - ===== GIS PIPELINE STARTED =====
+2026-04-21 13:24:51,462 - INFO - Validating input paths...
+2026-04-21 13:24:51,469 - INFO - Validation successful.
+2026-04-21 13:24:51,469 - INFO - Starting data conversion...
+2026-04-21 13:24:53,907 - INFO - CSV converted to points.
+2026-04-21 13:24:54,515 - ERROR - Conversion failed: 'NoneType' object is not iterable
+2026-04-21 13:24:54,516 - CRITICAL - Pipeline failed: 'NoneType' object is not iterable
+2026-04-21 13:27:25,354 - INFO - ===== GIS PIPELINE STARTED =====
+2026-04-21 13:27:25,367 - INFO - Starting data conversion...
+2026-04-21 13:27:27,868 - INFO - CSV converted to points.
+2026-04-21 13:27:27,949 - ERROR - Conversion failed: 'NoneType' object is not iterable
+2026-04-21 13:27:27,949 - CRITICAL - Pipeline failed: 'NoneType' object is not iterable
+2026-04-21 13:30:36,619 - INFO - ===== GIS PIPELINE STARTED =====
+2026-04-21 13:30:36,626 - INFO - Starting data conversion...
+2026-04-21 13:30:39,151 - INFO - CSV converted to points.
+2026-04-21 13:30:39,223 - INFO - KML root feature classes: None
+2026-04-21 13:30:39,229 - INFO - KML datasets found: None
+2026-04-21 13:30:39,230 - ERROR - Conversion failed: No feature classes found in KML
+2026-04-21 13:30:39,230 - CRITICAL - Pipeline failed: No feature classes found in KML
+2026-04-21 13:34:23,883 - INFO - ===== GIS PIPELINE STARTED =====
+2026-04-21 13:34:23,896 - INFO - Starting CSV conversion...
+2026-04-21 13:34:26,511 - INFO - CSV converted to point feature class.
+2026-04-21 13:34:26,512 - INFO - Merging ECW files...
+2026-04-21 13:34:28,743 - INFO - ECW files: ['452D.ecw', '453C.ecw', '552B.ecw', '553A.ecw']
+2026-04-21 13:39:59,651 - INFO - ECW merged successfully.
+2026-04-21 13:39:59,652 - INFO - Creating extent polygon...
+2026-04-21 13:40:00,120 - ERROR - Extent creation failed: Failed to execute. Parameters are not valid.
+ERROR 000824: The tool is not licensed.
+Failed to execute (RasterDomain).
+
+2026-04-21 13:40:00,120 - CRITICAL - Pipeline failed: Failed to execute. Parameters are not valid.
+ERROR 000824: The tool is not licensed.
+Failed to execute (RasterDomain).
+
+2026-04-21 13:43:09,840 - INFO - ===== GIS PIPELINE STARTED =====
+2026-04-21 13:43:09,847 - INFO - Starting CSV conversion...
+2026-04-21 13:43:12,861 - INFO - CSV converted to point feature class.
+2026-04-21 13:43:12,861 - INFO - Merging ECW files...
+2026-04-21 13:43:13,658 - INFO - ECW files: ['452D.ecw', '453C.ecw', '552B.ecw', '553A.ecw']
+2026-04-21 13:48:21,147 - INFO - ECW merged successfully.
+2026-04-21 13:48:21,147 - INFO - Creating extent polygon (no 3D Analyst)...
+2026-04-21 13:48:22,795 - INFO - Extent polygon created successfully.
+2026-04-21 13:48:22,795 - INFO - Projecting vector data...
+2026-04-21 13:48:22,844 - ERROR - Projection failed: 'NoneType' object is not iterable
+2026-04-21 13:48:22,844 - CRITICAL - Pipeline failed: 'NoneType' object is not iterable
+2026-04-21 14:00:38,507 - INFO - ===== GIS PIPELINE STARTED =====
+2026-04-21 14:00:38,519 - INFO - Starting CSV conversion...
+2026-04-21 14:00:41,632 - INFO - CSV converted to point feature class.
+2026-04-21 14:00:41,633 - INFO - Merging ECW files...
+2026-04-21 14:00:42,560 - INFO - ECW files: ['452D.ecw', '453C.ecw', '552B.ecw', '553A.ecw']
+2026-04-21 14:05:42,948 - INFO - ECW merged successfully.
+2026-04-21 14:05:42,949 - INFO - Creating extent polygon (no 3D Analyst)...
+2026-04-21 14:05:44,429 - INFO - Extent polygon created successfully.
+2026-04-21 14:05:44,429 - INFO - Projecting vector data from GDB...
+2026-04-21 14:05:44,939 - INFO - Feature classes in GDB: ['TRUCK_ROUTES', 'BUILDINGS', 'CROSSWALKS', 'INTERSECTIONS', 'LANEWAYS', 'PARCELS', 'ROAD_CENTERLINES', 'SIDEWALKS', 'BIKE_ROUTES', 'incidents_xy', 'extent_poly']
+2026-04-21 14:06:07,323 - INFO - Projection completed successfully.
+2026-04-21 14:06:07,323 - INFO - Clipping DEM...
+2026-04-21 14:06:07,779 - ERROR - DEM clipping failed: ERROR 001566: Failed to create raster dataset. The reason could be: The clip feature is outside the raster extent.
+ERROR 001566: Failed to create raster dataset. The reason could be: The clip feature is outside the raster extent.
+Failed to execute (Clip).
+
+2026-04-21 14:06:07,779 - CRITICAL - Pipeline failed: ERROR 001566: Failed to create raster dataset. The reason could be: The clip feature is outside the raster extent.
+ERROR 001566: Failed to create raster dataset. The reason could be: The clip feature is outside the raster extent.
+Failed to execute (Clip).
+
+2026-04-21 14:10:05,866 - INFO - ===== GIS PIPELINE STARTED =====
+2026-04-21 14:10:05,875 - INFO - Starting CSV conversion...
+2026-04-21 14:10:09,391 - INFO - CSV converted to point feature class.
+2026-04-21 14:10:09,391 - INFO - Merging ECW files...
+2026-04-21 14:10:10,306 - INFO - ECW files: ['452D.ecw', '453C.ecw', '552B.ecw', '553A.ecw']
+2026-04-21 14:15:30,723 - INFO - ECW merged successfully.
+2026-04-21 14:15:30,724 - INFO - Creating extent polygon (no 3D Analyst)...
+2026-04-21 14:15:32,185 - INFO - Extent polygon created successfully.
+2026-04-21 14:15:32,186 - INFO - Projecting vector data from GDB...
+2026-04-21 14:15:33,061 - INFO - Feature classes in GDB: ['TRUCK_ROUTES', 'BUILDINGS', 'CROSSWALKS', 'INTERSECTIONS', 'LANEWAYS', 'PARCELS', 'ROAD_CENTERLINES', 'SIDEWALKS', 'BIKE_ROUTES', 'proj_TRUCK_ROUTES', 'proj_BUILDINGS', 'proj_CROSSWALKS', 'proj_INTERSECTIONS', 'proj_LANEWAYS', 'proj_PARCELS', 'proj_ROAD_CENTERLINES', 'proj_SIDEWALKS', 'proj_BIKE_ROUTES', 'proj_incidents_xy', 'incidents_xy', 'extent_poly']
+2026-04-21 14:15:56,550 - INFO - Projection completed successfully.
+2026-04-21 14:15:56,550 - INFO - Clipping DEM...
+2026-04-21 14:15:56,743 - ERROR - DEM clip failed: Failed to execute. Parameters are not valid.
+ERROR 000517: The coordinate system is not defined for the input dataset.
+Failed to execute (Project).
+
+2026-04-21 14:15:56,743 - CRITICAL - Pipeline failed: Failed to execute. Parameters are not valid.
+ERROR 000517: The coordinate system is not defined for the input dataset.
+Failed to execute (Project).
+
+2026-04-21 14:50:55,135 - INFO - ===== PIPELINE STARTED =====
+2026-04-21 14:50:55,140 - INFO - Starting CSV conversion...
+2026-04-21 14:51:03,465 - INFO - CSV converted.
+2026-04-21 14:51:03,465 - INFO - Merging ECW files...
+2026-04-21 14:56:31,127 - INFO - ECW merged.
+2026-04-21 14:56:31,127 - INFO - Creating extent polygon...
+2026-04-21 14:56:32,803 - INFO - Extent created.
+2026-04-21 14:56:32,803 - INFO - Projecting data...
+2026-04-21 14:56:34,252 - INFO - Feature classes: ['TRUCK_ROUTES', 'BUILDINGS', 'CROSSWALKS', 'INTERSECTIONS', 'LANEWAYS', 'PARCELS', 'ROAD_CENTERLINES', 'SIDEWALKS', 'BIKE_ROUTES', 'proj_TRUCK_ROUTES', 'proj_BUILDINGS', 'proj_CROSSWALKS', 'proj_INTERSECTIONS', 'proj_LANEWAYS', 'proj_PARCELS', 'proj_ROAD_CENTERLINES', 'proj_SIDEWALKS', 'proj_BIKE_ROUTES', 'proj_incidents_xy', 'incidents_xy', 'extent_poly']
+2026-04-21 14:56:59,322 - INFO - Projection complete.
+2026-04-21 14:56:59,323 - INFO - Clipping DEM...
+2026-04-21 14:57:02,690 - INFO - DEM clipped.
+2026-04-21 14:57:02,691 - INFO - Clipping vectors...
+2026-04-21 14:57:19,368 - INFO - Vector clipping done.
+2026-04-21 14:57:19,368 - INFO - ===== PIPELINE COMPLETED =====
+2026-04-21 18:58:47,896 - INFO - ===== PIPELINE STARTED =====
+2026-04-21 18:58:47,908 - INFO - Starting CSV conversion...
+2026-04-21 18:58:54,793 - INFO - CSV converted.
+2026-04-21 18:58:54,793 - INFO - Merging ECW files...
+2026-04-21 19:04:25,728 - INFO - ECW merged.
+2026-04-21 19:04:25,728 - INFO - Creating extent polygon...
+2026-04-21 19:04:27,106 - INFO - Extent created.
+2026-04-21 19:04:27,106 - INFO - Projecting data...
+2026-04-21 19:04:28,122 - INFO - Feature classes: ['TRUCK_ROUTES', 'BUILDINGS', 'CROSSWALKS', 'INTERSECTIONS', 'LANEWAYS', 'PARCELS', 'ROAD_CENTERLINES', 'SIDEWALKS', 'BIKE_ROUTES', 'proj_TRUCK_ROUTES', 'proj_BUILDINGS', 'proj_CROSSWALKS', 'proj_INTERSECTIONS', 'proj_LANEWAYS', 'proj_PARCELS', 'proj_ROAD_CENTERLINES', 'proj_SIDEWALKS', 'proj_BIKE_ROUTES', 'proj_incidents_xy', 'proj_extent', 'extent_poly_dem', 'clip_proj_TRUCK_ROUTES', 'clip_proj_BUILDINGS', 'clip_proj_CROSSWALKS', 'clip_proj_INTERSECTIONS', 'clip_proj_LANEWAYS', 'clip_proj_PARCELS', 'clip_proj_ROAD_CENTERLINES', 'clip_proj_SIDEWALKS', 'clip_proj_BIKE_ROUTES', 'clip_proj_incidents_xy', 'clip_proj_extent', 'incidents_xy', 'extent_poly']
+2026-04-21 19:05:12,741 - INFO - Projection complete.
+2026-04-21 19:05:12,742 - INFO - Clipping DEM...
+2026-04-21 19:05:20,471 - INFO - DEM clipped.
+2026-04-21 19:05:20,471 - INFO - Clipping vectors...
+2026-04-21 19:06:00,513 - INFO - Vector clipping done.
+2026-04-21 19:06:00,514 - INFO - ===== PIPELINE COMPLETED =====
