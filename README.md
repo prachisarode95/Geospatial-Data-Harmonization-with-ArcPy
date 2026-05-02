@@ -11,14 +11,11 @@
 
 ---
 
-## 2. Why It Matters: According to the Industry Use-Cases
-
-Standardized geospatial data is foundational for:
-
-- **Urban Analytics & Planning**: Ensures consistent overlay of infrastructure datasets  
-- **Logistics & Mobility Systems**: Enables accurate routing and spatial decision-making  
-- **Disaster Management**: Reliable alignment of raster and vector datasets for risk modeling  
-- **Enterprise GIS Systems**: Automates preprocessing pipelines before analytics  
+## 2. The standardized geospatial data is foundational for the following industry cases:
+- Urban Analytics & Planning
+- Logistics & Mobility Systems  
+- Disaster Management
+- Enterprise GIS Systems 
 ---
 
 ## 3. System Architecture
@@ -73,7 +70,7 @@ Standardized geospatial data is foundational for:
 
 ---
 
-## 5. How It Works (Pipeline)
+## 5. How It Works (End-To-End Pipeline)
 
 ### Step 1: Data Ingestion
 - Input datasets:
