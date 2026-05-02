@@ -127,10 +127,10 @@ Standardized geospatial data is foundational for:
 ---
 
 ## 6. Workflow Overview
-![Pipeline Workflow](../workflow.png)
+![Pipeline Workflow](https://github.com/user-attachments/assets/911699ea-f943-4380-bc52-724f36cbc51c)
 
 ### Output Visualization
-![Standardized Spatial Outputs](../output_Screenshot.png)
+![Standardized Spatial Outputs](https://github.com/user-attachments/assets/59661928-b0c0-48cd-a5b3-b2c897e08816)
 
 > Demonstrates harmonized spatial layers aligned to a common CRS and extent.
 ---
@@ -140,4 +140,3 @@ Standardized geospatial data is foundational for:
 - Demonstrates **end-to-end geospatial ETL pipeline design**
 - Automates multi-source spatial data harmonization
 - Bridges traditional GIS workflows with **data engineering practices**
-- Strong foundation for transitioning into **spatial AI and intelligent systems**
